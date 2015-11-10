@@ -20,7 +20,7 @@
 </ul>
 
 <h3>Пример</h3>
-```css
+```html
 <ul class="nav">
     <li class="nav__item nav__item_active"><a class="nav__link">One</a></span></li>
     <li class="nav__item"><a class="nav__link">Two</a></li>
