@@ -1,4 +1,4 @@
-<h4>Разделы</h4>
+<h4>Р Р°Р·РґРµР»С‹</h4>
 <ul>
-	<li><a href="https://github.com/alma-com/codestyle/blob/master/CSS.md">Руководство по оформлению CSS кода</a></li>
+	<li><a href="https://github.com/alma-com/codestyle/blob/master/CSS.md">Р СѓРєРѕРІРѕРґСЃС‚РІРѕ РїРѕ РѕС„РѕСЂРјР»РµРЅРёСЋ CSS РєРѕРґР°</a></li>
 </ul>
