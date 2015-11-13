@@ -21,11 +21,11 @@
 <h3>Пример</h3>
 ```html
 <div class="nav_wrap">  
-<ul class="dop_nav">
-    <li class="dop_nav__item nav__item-active"><a class="dop_nav__link">One</a></span></li>
-    <li class="dop_nav__item"><a class="dop_nav__link">Two</a></li>
-    <li class="dop_nav__item"><a class="dop_nav__link">Three</a></li>
-</ul>
+    <ul class="dop_nav">
+        <li class="dop_nav__item nav__item-active"><a class="dop_nav__link">One</a></span></li>
+        <li class="dop_nav__item"><a class="dop_nav__link">Two</a></li>
+        <li class="dop_nav__item"><a class="dop_nav__link">Three</a></li>
+    </ul>
 </div>
 ```
 `nav_wrap` и `dop_nav` обозначает имя блока, `dop_nav__item` и `dop_nav__link` — имена элементов, а `dop_nav__item-active` — имя модификатора элемента item
