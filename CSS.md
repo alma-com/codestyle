@@ -11,19 +11,21 @@
 <h3>Именование классов</h3>
 <ul>
 	<li>имена классов записываются в нижнем регистре</li>
-	<li>для разделения слов в именах используется дефис (-)</li>
+	<li>для разделения слов в именах используется одно подчеркивание (_)</li>
 	<li>имя элемента отделяется от имени блока двумя подчеркиваниями (__)</li>
-	<li>имя модификатора отделяется от имени блока или элемента одним подчеркиванием (_)</li>
+	<li>имя модификатора отделяется от имени блока или элемента одним дефисом (-)</li>
 	<li>любой CSS класс должен начинаться с имени блока</li>
 	<li>любой класс по своему предназначению и правилам составления имени должен быть блоком, элементом, или модификатором</li>
 </ul>
 
 <h3>Пример</h3>
 ```html
-<ul class="nav">
-    <li class="nav__item nav__item_active"><a class="nav__link">One</a></span></li>
-    <li class="nav__item"><a class="nav__link">Two</a></li>
-    <li class="nav__item"><a class="nav__link">Three</a></li>
+<div class="nav_wrap">  
+<ul class="dop_nav">
+    <li class="dop_nav__item nav__item-active"><a class="dop_nav__link">One</a></span></li>
+    <li class="dop_nav__item"><a class="dop_nav__link">Two</a></li>
+    <li class="dop_nav__item"><a class="dop_nav__link">Three</a></li>
 </ul>
+</div>
 ```
-`nav` обозначает имя блока, `nav__item` и `nav__link` — имена элементов, а `nav__item_active` — имя модификатора элемента item
+`nav_wrap` и `dop_nav` обозначает имя блока, `dop_nav__item` и `dop_nav__link` — имена элементов, а `dop_nav__item-active` — имя модификатора элемента item
