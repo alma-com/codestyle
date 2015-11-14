@@ -18,7 +18,15 @@
 	<li>любой класс по своему предназначению и правилам составления имени должен быть блоком, элементом, или модификатором</li>
 </ul>
 
-<h3>Пример</h3>
+<h3>Общие правила</h3>
+<ul>
+	<li>Запрещено использование inline-стилей</li>
+	<li>Запрещено использовать каскадные стили, глубиной более одного элемента (например table td)</li>
+	<li>Модификатор должен переопределять не более 40% стилей, в противном случае лучше создать новый блок</li>
+	<li>Для адаптивной верстки предпочтительно использовать подход mobile-first: от простого – к сложному</li>
+</ul>
+
+<h3>Пример БЭМ-а</h3>
 ```html
 <div class="nav_wrap">  
     <ul class="dop_nav">
@@ -29,3 +37,23 @@
 </div>
 ```
 `nav_wrap` и `dop_nav` обозначает имя блока, `dop_nav__item` и `dop_nav__link` — имена элементов, а `dop_nav__item-active` — имя модификатора элемента item
+
+<h3>Полезные ссылки</h3>
+<ul>
+	<li><a href="http://delka.github.io/talks/webcamp/2015/bem/">Пишем БЭМ правильно</a></li>
+	<li><a href="http://habrahabr.ru/post/203440/">Верстка для самых маленьких. Верстаем страницу по БЭМу</a></li>
+</ul>
+
+<h3>Необходимо выбрать вариант наименование классов</h3>
+<ul>
+	<li>1) some-block__some-element_some-modificator</li>
+	<li>2) some-block__some-element--some-modificator</li>
+</ul>
+<ul>
+	<li>3) someBlock__someElement_someModificator</li>
+	<li>4) someBlock__someElement--someModificator</li>
+</ul>
+<ul>
+	<li>5) some_block__some_element-some_modificator</li>
+	<li>6) some_block__some_element--some_modificator</li>
+</ul>
