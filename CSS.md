@@ -45,6 +45,7 @@
 </ul>
 
 <h3>Необходимо выбрать вариант наименование классов</h3>
+1) some-block__some-element_some-modificator<br>
 3) someBlock__someElement_someModificator<br>
 5) some_block__some_element-some_modificator<br>
 
