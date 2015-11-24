@@ -32,7 +32,7 @@
 <h3>Пример БЭМ-а</h3>
 ```html
 <ul class="dop-nav">
-    <li class="dop-nav__item nav__item_active"><a class="dop-nav__link">One</a></span></li>
+    <li class="dop-nav__item dop-nav__item_active"><a class="dop-nav__link">One</a></span></li>
     <li class="dop-nav__item"><a class="dop-nav__link">Two</a></li>
     <li class="dop-nav__item"><a class="dop-nav__link">Three</a></li>
 </ul>
